@@ -3921,8 +3921,6 @@ void HandleEndTurn_ContinueBattle(void)
         gBattleStruct->wishPerishSongBattlerId = 0;
         gBattleStruct->turnCountersTracker = 0;
         gMoveResultFlags = 0;
-
-        //TryEvolvePokemonMidBattle;
     }
 }
 
