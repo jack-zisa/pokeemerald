@@ -112,7 +112,6 @@ static void FreeResetData_ReturnToOvOrDoEvolutions(void);
 static void ReturnFromBattleToOverworld(void);
 static void TryEvolvePokemon(void);
 static void WaitForEvoSceneToFinish(void);
-static void HandleEndTurn_ContinueBattle(void);
 static void HandleEndTurn_BattleWon(void);
 static void HandleEndTurn_BattleLost(void);
 static void HandleEndTurn_RanFromBattle(void);
@@ -3901,7 +3900,7 @@ static void TryDoEventsBeforeFirstTurn(void)
     }
 }
 
-static void HandleEndTurn_ContinueBattle(void)
+void HandleEndTurn_ContinueBattle(void)
 {
     s32 i;
 
@@ -3922,6 +3921,8 @@ static void HandleEndTurn_ContinueBattle(void)
         gBattleStruct->wishPerishSongBattlerId = 0;
         gBattleStruct->turnCountersTracker = 0;
         gMoveResultFlags = 0;
+
+        //TryEvolvePokemonMidBattle;
     }
 }
 

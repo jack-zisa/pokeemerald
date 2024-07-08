@@ -1,5 +1,7 @@
+#include <stdio.h>
 #include "global.h"
 #include "battle.h"
+#include "battle_main.h"
 #include "battle_message.h"
 #include "battle_anim.h"
 #include "battle_ai_script_commands.h"
@@ -10,6 +12,7 @@
 #include "random.h"
 #include "battle_controllers.h"
 #include "battle_interface.h"
+#include "evolution_scene.h"
 #include "text.h"
 #include "sound.h"
 #include "pokedex.h"
@@ -51,6 +54,8 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 #include "constants/trainers.h"
+#include "constants/species.h"
+#include "battle_script_commands.h"
 
 extern const u8 *const gBattleScriptsForMoveEffects[];
 

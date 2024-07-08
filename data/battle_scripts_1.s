@@ -3157,6 +3157,9 @@ BattleScript_LevelUp::
 	printstring STRINGID_PKMNGREWTOLV
 	setbyte sLVLBOX_STATE, 0
 	drawlvlupbox
+	goto BattleScript_Evolve
+BattleScript_Evolve::
+	printstring STRINGID_PKMNISEVOLVING
 	handlelearnnewmove BattleScript_LearnedNewMove, BattleScript_LearnMoveReturn, TRUE
 	goto BattleScript_AskToLearnMove
 BattleScript_TryLearnMoveLoop::

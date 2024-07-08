@@ -637,7 +637,8 @@ const u16 gEggMoves[] = {
               MOVE_REFLECT,
               MOVE_AMNESIA,
               MOVE_HELPING_HAND,
-              MOVE_PSYCH_UP),
+              MOVE_PSYCH_UP,
+              MOVE_SEED_BOMB),
 
     egg_moves(AIPOM,
               MOVE_COUNTER,
@@ -715,7 +716,8 @@ const u16 gEggMoves[] = {
               MOVE_BITE,
               MOVE_HEADBUTT,
               MOVE_ASTONISH,
-              MOVE_CURSE),
+              MOVE_CURSE,
+              MOVE_AQUA_TAIL),
 
     egg_moves(GLIGAR,
               MOVE_METAL_CLAW,
@@ -739,7 +741,8 @@ const u16 gEggMoves[] = {
               MOVE_HAZE,
               MOVE_BUBBLE_BEAM,
               MOVE_SUPERSONIC,
-              MOVE_ASTONISH),
+              MOVE_ASTONISH,
+              MOVE_AQUA_TAIL),
 
     egg_moves(SHUCKLE,
               MOVE_SWEET_SCENT),
@@ -1305,6 +1308,17 @@ const u16 gEggMoves[] = {
               MOVE_CURSE,
               MOVE_HYPNOSIS,
               MOVE_DREAM_EATER),
+    
+    egg_moves(FRONDLET,
+              MOVE_LIGHT_SCREEN,
+              MOVE_SKULL_BASH,
+              MOVE_SAFEGUARD,
+              MOVE_CHARM,
+              MOVE_PETAL_DANCE,
+              MOVE_MAGICAL_LEAF,
+              MOVE_GRASS_WHISTLE,
+              MOVE_CURSE),
+
 
     EGG_MOVES_TERMINATOR
 };

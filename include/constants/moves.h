@@ -357,7 +357,14 @@
 #define MOVE_DOOM_DESIRE 353
 #define MOVE_PSYCHO_BOOST 354
 
-#define MOVES_COUNT 355
+#define MOVE_AQUA_TAIL 355
+#define MOVE_DRAGON_PULSE 356
+#define MOVE_POWER_GEM 357
+#define MOVE_POWER_WHIP 358
+#define MOVE_SEED_BOMB 359
+#define MOVE_X_SCISSOR 340
+
+#define MOVES_COUNT MOVE_X_SCISSOR + 1
 
 // Used for checks for moves affected by Disable, Mimic, etc.
 #define MOVE_UNAVAILABLE 0xFFFF

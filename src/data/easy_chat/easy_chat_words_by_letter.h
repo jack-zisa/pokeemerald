@@ -553,6 +553,7 @@ const u16 gEasyChatWordsByLetter_F[] = {
     EC_WORD_FRIDAY,
     EC_WORD_FRIEND,
     EC_WORD_FROM,
+    EC_POKEMON(FRONDLET),
     EC_WORD_FRONT,
     EC_WORD_FRONTIER,
     EC_MOVE2(FRUSTRATION),

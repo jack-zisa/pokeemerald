@@ -2845,6 +2845,54 @@ const struct BardSound gBardSounds_Moves[MOVES_COUNT][6] = {
         { .songLengthId = 39 },
         NULL_BARD_SOUND,
         NULL_BARD_SOUND,
+    },
+    
+    [MOVE_AQUA_TAIL] = {
+        { .songLengthId = 27 },
+        { .songLengthId = 48 },
+        { .songLengthId = 44 },
+        { .songLengthId = 51 },
+        NULL_BARD_SOUND,
+        NULL_BARD_SOUND,
+    },
+    [MOVE_DRAGON_PULSE] = {
+        { .songLengthId =  0 },
+        { .songLengthId = 27 },
+        { .songLengthId = 5 },
+        { .songLengthId = 51 },
+        { .songLengthId = 51 },
+        NULL_BARD_SOUND,
+    },
+    [MOVE_POWER_GEM] = {
+        { .songLengthId = 12 },
+        { .songLengthId = 9 },
+        { .songLengthId = 33 },
+        { .songLengthId = 48 },
+        NULL_BARD_SOUND,
+        NULL_BARD_SOUND,
+    },
+    [MOVE_POWER_WHIP] = {
+        { .songLengthId = 18 },
+        { .songLengthId = 17 },
+        { .songLengthId = 51 },
+        NULL_BARD_SOUND,
+        NULL_BARD_SOUND,
+        NULL_BARD_SOUND,
+    },
+    [MOVE_SEED_BOMB] = {
+        { .songLengthId = 42 },
+        { .songLengthId = 9 },
+        { .songLengthId = 12 },
+        { .songLengthId = 51 },
+        NULL_BARD_SOUND,
+        NULL_BARD_SOUND,
+    },
+    [MOVE_X_SCISSOR] = {
+        { .songLengthId =  0 },
+        { .songLengthId = 51 },
+        { .songLengthId = 51 },
+        NULL_BARD_SOUND,
+        NULL_BARD_SOUND,
     }
 };
 

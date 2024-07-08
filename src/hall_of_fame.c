@@ -35,14 +35,14 @@
 #include "confetti_util.h"
 #include "constants/rgb.h"
 
-#define HALL_OF_FAME_MAX_TEAMS 50
+#define HALL_OF_FAME_MAX_TEAMS 30
 #define TAG_CONFETTI 1001
 
 struct HallofFameMon
 {
     u32 tid;
     u32 personality;
-    u16 species:9;
+    u16 species:10;
     u16 lvl:7;
     u8 nickname[POKEMON_NAME_LENGTH];
 };

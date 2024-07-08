@@ -76,6 +76,9 @@ void RunBattleScriptCommands_PopCallbacksStack(void);
 void RunBattleScriptCommands(void);
 bool8 TryRunFromBattle(u8 battlerId);
 void SpecialStatusesClear(void);
+void TryEvolvePokemonMidBattle(void);
+void WaitForEvoSceneToFinishMidBattle(void);
+void HandleEndTurn_ContinueBattle(void);
 
 extern struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE];
 

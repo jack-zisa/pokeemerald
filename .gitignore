@@ -19,7 +19,7 @@
 *.fwjpnfont
 sound/**/*.bin
 sound/songs/midi/*.s
-tools/agbcc
+tools
 *.map
 *.bat
 *.dump
@@ -38,3 +38,8 @@ prefabs.json
 *.diff
 *.sym
 *.js
+/.github
+/asm
+asmdiff.sh
+build_tools.sh
+/common_syms
