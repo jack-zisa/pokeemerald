@@ -1,6 +1,3 @@
-#ifndef GUARD_EVOLUTION_H
-#define GUARD_EVOLUTION_H
-
 const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 {
     [SPECIES_BULBASAUR]  = {{EVO_LEVEL, 16, SPECIES_IVYSAUR}},
@@ -222,7 +219,6 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_FINNEON]     = {{EVO_LEVEL, 31, SPECIES_LUMINEON}},
     [SPECIES_SNOVER]     = {{EVO_LEVEL, 40, SPECIES_ABOMASNOW}},
 
-    [SPECIES_FRONDLET]   = {{EVO_LEVEL, 6, SPECIES_FRONDLET},
-                            {EVO_LEVEL, 7, SPECIES_FRONDLET}},
+    [SPECIES_FRONDLET]   = {{EVO_LEVEL_FEMALE, 3, SPECIES_DARKRAI},
+                            {EVO_LEVEL_MALE, 3, SPECIES_GIRATINA}},
 };
-#endif // GUARD_EVOLUTION_H

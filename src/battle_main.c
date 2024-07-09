@@ -112,6 +112,7 @@ static void FreeResetData_ReturnToOvOrDoEvolutions(void);
 static void ReturnFromBattleToOverworld(void);
 static void TryEvolvePokemon(void);
 static void WaitForEvoSceneToFinish(void);
+static void HandleEndTurn_ContinueBattle(void);
 static void HandleEndTurn_BattleWon(void);
 static void HandleEndTurn_BattleLost(void);
 static void HandleEndTurn_RanFromBattle(void);
@@ -3900,7 +3901,7 @@ static void TryDoEventsBeforeFirstTurn(void)
     }
 }
 
-void HandleEndTurn_ContinueBattle(void)
+static void HandleEndTurn_ContinueBattle(void)
 {
     s32 i;
 
